@@ -70,7 +70,9 @@ individual human-versus-automation classification by itself.
 
 ## Attribution and license
 
-Stimuli and task wording are adapted from:
+This demonstration adapts stimuli and task wording from the
+[Cognitive Trap Repository](https://github.com/FelipeMAffonso/cognitive-trap-repository),
+created by Felipe M. Affonso. Please cite the creator's associated publication:
 
 > Affonso, Felipe M. (2026), “Brief Commentary: A Framework for Detecting AI
 > Agents in Online Research,” *Journal of Consumer Research*.

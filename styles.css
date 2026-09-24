@@ -191,6 +191,7 @@ button:disabled { cursor: wait; opacity: 0.62; }
 .completion-link { display: inline-block; margin-top: 24px; color: var(--accent); font-weight: 750; }
 
 footer { padding: 18px; display: flex; justify-content: center; gap: 8px; color: #75807c; font-size: 0.76rem; text-align: center; }
+footer a { color: inherit; text-underline-offset: 2px; }
 
 @media (max-width: 800px) {
   .study-header { align-items: flex-start; }

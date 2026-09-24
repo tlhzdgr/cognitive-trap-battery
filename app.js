@@ -300,6 +300,9 @@
             <h2>What was this study testing?</h2>
             <p>These images are cognitive traps: visual tasks designed to compare human perception with the behavior of vision-language models and autonomous software. The purpose was described generally at the beginning so that awareness of the screening goal would not change how the items were answered.</p>
             <p>This demonstration does not make a reliable human-versus-automation judgment about an individual. In research, these items should be combined with informed consent, a preregistered scoring rule, privacy safeguards, and appropriate ethics review.</p>
+            <h2>Source and citation</h2>
+            <p>The stimuli and task wording are adapted from the <a href="https://github.com/FelipeMAffonso/cognitive-trap-repository" target="_blank" rel="noopener noreferrer">Cognitive Trap Repository</a>, created by Felipe M. Affonso and licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.</p>
+            <p>Affonso, Felipe M. (2026), “Brief Commentary: A Framework for Detecting AI Agents in Online Research,” <em>Journal of Consumer Research</em>. <a href="https://doi.org/10.1093/jcr/ucag006" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/jcr/ucag006</a></p>
           </div>
         </details>
         ${CONFIG.completionUrl ? `<a class="completion-link" href="${escapeHtml(CONFIG.completionUrl)}">Continue to completion page →</a>` : ""}
