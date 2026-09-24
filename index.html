@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="color-scheme" content="light">
+  <title>Visual Reasoning Study</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="study-header" aria-label="Study header">
+      <a class="brand" href="./" aria-label="Visual Reasoning Study home">
+        <span class="brand-mark" aria-hidden="true">VR</span>
+        <span>Visual Reasoning Study</span>
+      </a>
+      <div id="progressWrap" class="progress-wrap" hidden>
+        <span id="progressText">Item 1 of 7</span>
+        <div class="progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1" aria-live="polite"></main>
+
+    <footer>
+      <span>Research demonstration</span>
+      <span aria-hidden="true">·</span>
+      <span>No response data leaves this page unless a study endpoint is configured.</span>
+    </footer>
+  </div>
+
+  <noscript>This study requires JavaScript to present the tasks and record responses.</noscript>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
